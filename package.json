@@ -1,0 +1,31 @@
+{
+  "name": "frontdesk-ai-agent",
+  "version": "1.0.0",
+  "description": "Human-in-the-loop AI supervisor for salon customer service",
+  "main": "src/agent.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/agent.js dev",
+    "start": "node src/agent.js start",
+    "download-files": "node src/agent.js download-files"
+  },
+  "keywords": [
+    "livekit",
+    "ai-agent",
+    "voice-assistant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@livekit/agents": "^1.0.15",
+    "@livekit/agents-plugin-livekit": "^1.0.15",
+    "@livekit/agents-plugin-silero": "^1.0.15",
+    "@livekit/noise-cancellation-node": "^0.1.9",
+    "dotenv": "^16.4.5",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
